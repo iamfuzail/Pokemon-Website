@@ -7,6 +7,21 @@ body{
     background: fixed;
     background: linear-gradient(135deg,rgba(12,3,51,0.3),yellow,blue);
 }
+::-webkit-scrollbar{
+    width: 0.9rem;
+}
+::-webkit-scrollbar-track{
+    background-color: grey;
+}
+::-webkit-scrollbar-thumb{
+    background-color: yellow;
+    border-radius: 1rem;
+    border: 0.2rem solid transparent;
+    background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: blue;
+}
 h1{
    color: yellow; 
 }
